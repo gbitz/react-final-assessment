@@ -1,0 +1,20 @@
+.activity-list {
+    list-style-type: none;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 15px; 
+    width: 20%;
+    font-size: 30px;
+}
+
+
+
+.activity-list li {
+    
+    display: flex;
+}
+.activity-list span {
+    display:flex;
+    flex: 1;
+    
+}

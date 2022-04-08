@@ -1,0 +1,18 @@
+.full-header {
+    display: flex;
+}
+img {
+    flex: 1;
+    width: 25%;
+}
+.group {
+    flex:2;
+    display: inline;
+    flex-direction: column;
+    margin: 15px;
+}
+p {
+    flex: 1;
+    font-size:90px;
+    font-weight: bold;
+}
