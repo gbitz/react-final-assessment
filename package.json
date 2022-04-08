@@ -1,7 +1,10 @@
 {
-  "name": "rendering-with-react-assignment",
+  "name": "y",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "16.13.2"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -9,7 +12,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
-  },
+  }
+  ,
   "scripts": {
     "build": "react-scripts build",
     "docker:build": "docker image build . -t thinkful-ed/zid-fe-rendering-with-react-xx-assignment",
@@ -39,5 +43,18 @@
   },
   "devDependencies": {
     "react-test-renderer": "^16.13.1"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "jest.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbitz/react-final-assessment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gbitz/react-final-assessment/issues"
+  },
+  "homepage": "https://github.com/gbitz/react-final-assessment#readme",
+  "keywords": []
 }
